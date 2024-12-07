@@ -21,8 +21,8 @@ services:
 
   app:
     image: cooderl/wewe-rss:latest
-    ports:
-      - 4000:4000
+    # ports:
+    #  - 4000:4000
     depends_on:
       db:
         condition: service_healthy
