@@ -3,8 +3,8 @@ version: '3.9'
 services:
   app:
     image: cooderl/wewe-rss-sqlite:latest
-    ports:
-      - 4000:4000
+    #ports:
+      #- 4000:4000
     environment:
       # 数据库连接地址
       # - DATABASE_URL=file:../data/wewe-rss.db
